@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0d0714;
+}
+.container{
+    width: 30%;
+    margin: 50px auto;
+
+}
+li{
+    background-color: #15101c;
+    color: #8968b4;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#AddInput{
+    background-color: #0d0714;
+    color: white;
+border: none;
+border-radius: 10px;
+padding:10px 15px;
+border: 1px solid violet;
+width: 90%;
+}
+.head button{
+    background-color: #9e78cf;
+    color: white;
+    padding: 10px ;
+    border-radius: 10px;
+    border: none;
+}
+h4{
+    color: white;
+    margin: 50px 0 10px ;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+/* Ekle butonuna biraz alan ekleyelim */
+.head button {
+    margin-left: 10px;
+  }
+  
+  /* Check ikonu yanında bir çizgi olsun */
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons::before {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background-color: #000;
+    margin-right: 10px;
+  }
+  
+  /* Done bölümünün stilini belirleyelim */
+  .doneList {
+    margin-top: 20px;
+  }
+  
+  .doneList ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .doneList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: line-through; /* Bitmiş görevler için çizgi çek */
+  }
+  
